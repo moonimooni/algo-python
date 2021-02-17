@@ -3,14 +3,14 @@
 t = int(input())
 
 def fibo(n):
-    cach = [[0, 0] for i in range(n+1)]
-    cach[0] = [1, 0]
-    if len(cach) > 1:
-        cach[1] = [0, 1]
-        for i in range(2, len(cach)):
-            cach[i][0] = cach[i-1][0] + cach[i-2][0]
-            cach[i][1] = cach[i-1][1] + cach[i-2][1]
-    return cach[-1]
+    cache = [[0, 0] for i in range(n+1)]
+    cache[0] = [1, 0]
+    if len(cache) > 1:
+        cache[1] = [0, 1]
+        for i in range(2, len(cache)):
+            cache[i][0] = cache[i-1][0] + cache[i-2][0]
+            cache[i][1] = cache[i-1][1] + cache[i-2][1]
+    return cache[-1]
 
 for _ in range(t):
     print(*fibo(int(input())))
