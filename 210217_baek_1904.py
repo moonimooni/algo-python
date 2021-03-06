@@ -20,12 +20,11 @@ print(cache[n])
 
 # 아래 코드가 더 빠르다.. 왜?
 
-n = int(input())
-cache = [1, 2]
-if n > 2:
-    for _ in range(3, n):
-        cache.append((cache[-1]+cache[-2]) % 15746)
-print(cache[n])
+N = int(input())
+cache = [0, 1, 2]
+for _ in range(3, N+1):
+    cache.append((cache[-1]+cache[-2]) % 15746)
+print(cache[N])
 
 # 시간초과
 
@@ -34,3 +33,7 @@ print(cache[n])
 # for i in range(n-1):
 #     a, b = b, a + b
 # print(a % 15746)
+
+import sys
+
+maximum = sys.maxsize
