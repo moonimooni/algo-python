@@ -1,3 +1,5 @@
+# https://programmers.co.kr/learn/courses/30/lessons/12921
+
 def solution(n):
     answer = 0
     nums = list(range(3, n+1, 2))

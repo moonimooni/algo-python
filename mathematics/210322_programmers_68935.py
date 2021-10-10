@@ -1,5 +1,7 @@
 # https://programmers.co.kr/learn/courses/30/lessons/68935
 
+# 파이썬이 사기다 ;; 3진법 계산 내장 함수가 있다니
+
 def solution(n):
     n3 = ''
     while n:

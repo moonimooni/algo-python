@@ -1,3 +1,6 @@
+# https://programmers.co.kr/learn/courses/30/lessons/42587
+# 일종의 배치? 알고리즘같은...
+
 from collections import deque
 
 # 테스트케이스 일부 통과 실패 ㅠ

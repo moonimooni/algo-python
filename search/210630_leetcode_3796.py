@@ -1,3 +1,5 @@
+# 윈도우 알고리즘
+
 class Solution:
     def longestOnes(self, nums: List[int], k: int) -> int:
         i = j = 0

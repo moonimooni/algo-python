@@ -1,5 +1,7 @@
 # https://www.acmicpc.net/problem/2775
 
+# 재귀로 풀어도 되지만 완전탐색이 더 효율적인...?
+
 t = int(input())
 
 for _ in range(t):

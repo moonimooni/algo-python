@@ -1,3 +1,7 @@
+// https://programmers.co.kr/learn/courses/30/lessons/81301
+// 숫자 문자열과 영단어
+// hash로 풀이 가능
+
 function solution(s) {
   const dict = {
     zero: "0",

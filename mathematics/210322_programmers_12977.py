@@ -1,5 +1,7 @@
 # https://programmers.co.kr/learn/courses/30/lessons/12977
 
+# 소수 만들기
+
 def isPrime(num):
     if num == 2:
         return True
