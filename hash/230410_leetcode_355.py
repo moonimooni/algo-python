@@ -22,7 +22,7 @@ class Twitter:
         news_feed = sorted(
             self.tweets[userId] + followees_feeds, key=lambda tweet: -tweet[-1])
 
-        return list(map(lambda x: x[0], news_feed))
+        return list(map(lambda x: x[0], news_feed))[:10]
 
     def follow(self, followerId: int, followeeId: int) -> None:
         self.followers[followerId].add(followeeId)
